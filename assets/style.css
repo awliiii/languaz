@@ -1,0 +1,57 @@
+body {
+    font-family: system-ui, -apple-system;
+    background-color: rgb(19, 23, 31);
+    color: rgb(194, 199, 208);
+}
+
+nav {
+    display: flex;
+    border-bottom: 1px solid rgb(194, 199, 208);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(194, 199, 208);
+}
+
+li {
+    list-style-type: square;
+}
+
+h1 {
+    text-align: center;
+}
+
+kbd {
+    background-color: rgb(194, 199, 208);
+    color: rgb(19, 23, 31);
+    padding: 0.2rem 0.5rem;
+    margin: auto 1rem;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+table td {
+    text-align: center;
+    padding: 0.5rem;
+    border-color: rgb(194, 199, 208);
+    border-style: solid;
+    border-width: 1px;
+}
+
+#current-page {
+    background-color: rgb(194, 199, 208);
+    color: rgb(19, 23, 31);
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-space-evenly {
+    justify-content: space-evenly;
+    align-items: center;
+}
