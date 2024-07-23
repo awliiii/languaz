@@ -9,25 +9,68 @@
         <link rel="stylesheet" href="assets/style.css">
     </head>
     <body>
-        <nav class="flex-space-evenly">
+        <nav class="flex flex-space-evenly">
             <a href="index.html">Home</a>
             <a href="phonology.html">1 Phonology</a>
             <a href="syntax.html">2 Syntax</a>
             <a href="noun_morphology.html">3 Noun morphology</a>
-            <a href="verb_morphology.html">4 Verb morphology <a>
+            <a href="verb_morphology.html">4 Verb morphology</a>
             <a href="dictionary_en.html" id="current-page">Dictionary</a>
         </nav>
 
         <main>
             <h1>Dictionary</h1>
-            <div class="flex flex-space-evenly">
-                <table>
+            <div class="flex flex-space-evenly flex-wrap">
+                <table> <!-- NOUNS -->
+                    <caption>Nouns</caption>
+                    <tr>
+                        <td>noun</td>
+                        <td>pronunciation</td>
+                        <td>meaning</td>
+                    </td>
+                    <tr>
+                        <td>kabo <sub>neut.</sub></td>
+                        <td>/ˈkabɔ/</td>
+                        <td>dog</td>
+                    </tr>
+                    <tr>
+                        <td>isado <sub>neut.</sub></td>
+                        <td>/ˈisɔda/</td>
+                        <td>house</td>
+                    </tr>
+                    <tr>
+                        <td>tød <sub>masc.</sub></td>
+                        <td>/ˈtød/</td>
+                        <td>death</td>
+                    </tr>
+                </table>
+
+                <table> <!-- VERBS -->
+                    <caption>Verbs</caption>
+                    <tr>
+                        <td>verb</td>
+                        <td>pronunciation</td>
+                        <td>meaning</td>
+                    </td>
+                    <tr>
+                        <td>irf <sub>irr.</sub></td>
+                        <td>/ˈirf/</td>
+                        <td>to be</td>
+                    </tr>
+                    <tr>
+                        <td>vu</td>
+                        <td>/ˈvu/</td>
+                        <td>to see</td>
+                    </tr>
+                </table>
+
+                <table> <!-- PRONOUNS -->
                     <caption>Pronouns</caption>
                     <tr>
                         <td></td>
-                        <td>Pronoun</td>
-                        <td>Pronunciation</td>
-                        <td>Meaning</td>
+                        <td>pronoun</td>
+                        <td>pronunciation</td>
+                        <td>meaning</td>
                     </td>
                     <tr>
                         <td>1st singular</td>
@@ -39,75 +82,147 @@
                         <td>2nd singular</td>
                         <td>ve</td>
                         <td>/ˈvɛ/</td>
-                        <td>You (sg.)</td>
+                        <td>you (sg.)</td>
                     </tr>
                     <tr>
-                        <td>3rd singular</td>
-                        <td></td>
-                        <td></td>
-                        <td>He/she/it</td>
+                        <td>3rd singular (masc.)</td>
+                        <td>ter</td>
+                        <td>/ˈtɛr/</td>
+                        <td>he</td>
+                    </tr>
+                    <tr>
+                        <td>3rd singular (fem.)</td>
+                        <td>tera</td>
+                        <td>/ˈtɛra/</td>
+                        <td>she</td>
+                    </tr>
+                    <tr>
+                        <td>3rd singular (neut.)</td>
+                        <td>toro</td>
+                        <td>/ˈtɔrɔ/</td>
+                        <td>it (neut.)</td>
                     </tr>
                     <tr>
                         <td>1st plural (inclusive)</td>
                         <td>vao</td>
                         <td>/ˈvaɔ/</td>
-                        <td>We (including you)</td>
+                        <td>we (including you)</td>
                     </tr>
                     <tr>
                         <td>1st plural (exclusive)</td>
                         <td>jao</td>
                         <td>/ˈjaɔ/</td>
-                        <td>We (excluding you)</td>
+                        <td>we (excluding you)</td>
                     </tr>
                     <tr>
                         <td>2nd plural</td>
                         <td>pa</td>
                         <td>/ˈpa/</td>
-                        <td>You (pl.)</td>
+                        <td>you (pl.)</td>
                     </tr>
                     <tr>
                         <td>3rd plural</td>
                         <td>lø</td>
                         <td>/ˈlø/</td>
-                        <td>They</td>
+                        <td>they</td>
                     </tr>
                 </table>
 
-                <table>
-                    <caption>Verbs</caption>
+                <table> <!-- TODO: POSSESSIVE DETERMINERS -->
+                    <caption>Possessive determiners</caption>
                     <tr>
-                        <td>Verb</td>
-                        <td>Pronunciation</td>
-                        <td>Meaning</td>
+                        <td>person/gender</td>
+                        <td>masculine</td>
+                        <td>feminine</td>
+                        <td>neuter</td>
+                        <td>pronunciation</td>
+                        <td>meaning</td>
                     </td>
                     <tr>
-                        <td>vu</td>
-                        <td>/ˈvu/</td>
-                        <td>to see</td>
+                        <td>1st singular</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>my</td>
+                    </tr>
+                    <tr>
+                        <td>2nd singular</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>your (sg.)</td>
+                    </tr>
+                    <tr>
+                        <td>3rd singular (masc.)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>his</td>
+                    </tr>
+                    <tr>
+                        <td>3rd singular (fem.)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>her</td>
+                    </tr>
+                    <tr>
+                        <td>3rd singular (neut.)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>its</td>
+                    </tr>
+                    <tr>
+                        <td>1st plural (inclusive)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>our (including you)</td>
+                    </tr>
+                    <tr>
+                        <td>1st plural (exclusive)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>our (excluding you)</td>
+                    </tr>
+                    <tr>
+                        <td>2nd plural</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>your (pl.)</td>
+                    </tr>
+                    <tr>
+                        <td>3rd plural</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>their</td>
                     </tr>
                 </table>
 
-                <table>
-                    <caption>Nouns</caption>
+                <table> <!-- TODO: CONJUNCTIONS -->
+                    <caption>Conjunctions</caption>
                     <tr>
-                        <td>Noun</td>
-                        <td>Pronunciation</td>
-                        <td>Meaning</td>
-                    </td>
-                    <tr>
-                        <td>kabo</td>
-                        <td>/ˈkabɔ/</td>
-                        <td>dog</td>
+                        <td>conjunction</td>
+                        <td>pronunciation</td>
+                        <td>meaning</td>
                     </tr>
                     <tr>
-                        <td>tød</td>
-                        <td>/ˈtød/</td>
-                        <td>death</td>
-                    </tr>
-                    <tr>
-                        <td>isoda</td>
-                        <td>/ˈisɔda/</td>
-                        <td>house</td>
+                        <td>no</td>
+                        <td>/ˈnɔ/</td>
+                        <td>and</td>
                     </tr>
                 </table>
             </div>
